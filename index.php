@@ -360,7 +360,7 @@
                 <div class="col-md-12">
                     <div class="row my-3 justify-content-center">
                         <div class="col-md-8 mt-1 text-center">
-                            <a href="https://wa.me/+918669546954/?text=Hi i would like to have more information about Rigved Uptown Balewadi" target="_blank" class="callback px-2 py-1 text-white text-decoration-none" href="javascript:void(0);"> Request Call Back </a>
+                            <a href="https://wa.me/+918669546954/?text=Hi i would like to have more information about Kunal Group's Codename Rise and Share Balewadi" target="_blank" class="callback px-2 py-1 text-white text-decoration-none" href="javascript:void(0);"> Request Call Back </a>
                         </div>
                         <div class="col-md-8 mt-3 text-center">
                             <a class="visit px-2 py-1 text-white text-decoration-none" href="javascript:void(0);" onclick="popup();">Schedule Site Visit</a>
@@ -418,7 +418,7 @@
                 </div>
                 <div class="col-md-12" data-aos="zoom-in">
                     <div class="col-md-3 col-4 text-center" id="bookingBlock">
-                        <a id="bookingWhatsapp" href="https://wa.me/+918669546954/?text=Hi i would like to have more information about Rigved Uptown Balewadi" class="h2"><i class="fab fa-whatsapp-square"></i></a>
+                        <a id="bookingWhatsapp" href="https://wa.me/+918669546954/?text=Hi i would like to have more information about Kunal Group's Codename Rise and Share Balewadi" class="h2"><i class="fab fa-whatsapp-square"></i></a>
                         <a class="h4" id="bookingCall" href="tel:+918669546954"><i class="fas  fa-phone-alt"></i></a>
                         <img class="img-fluid" id="bookingImg" src="img/desktop-banner.jpg" alt="">
                     </div>
@@ -436,7 +436,7 @@
                             <h5>
                                 <p class="h6">This is where all the action is This is where you can feel the buzz of modern Puna Join in the hustle & bustle and make the most of what the city has to offer. Be in the midst of all the action. This lifestyle is right up your street!</p>
                             </h5>
-                            <a href="https://wa.me/+918669546954/?text=Hi i would like to have more information about Rigved Uptown Balewadi" onclick="" class="btn themeColor mt-3">Get in Touch</a>
+                            <a href="https://wa.me/+918669546954/?text=Hi i would like to have more information about Kunal Group's Codename Rise and Share Balewadi" onclick="" class="btn themeColor mt-3">Get in Touch</a>
                         </div>
                     </div>
                 </div>
@@ -688,7 +688,7 @@
                         <img class="img-fluid" src="img/sideImg.png" alt="">
                     </div>
                     <div class="col-md-12 mt-3 text-center">
-                        <p><a class="text-decoration-none" href="https://wa.me/+918669546954/?text=Hi i would like to have more information about Rigved Uptown Balewadi"><i class="fab fa-whatsapp"></i> +91 8669546954</a></p>
+                        <p><a class="text-decoration-none" href="https://wa.me/+918669546954/?text=Hi i would like to have more information about Kunal Group's Codename Rise and Share Balewadi"><i class="fab fa-whatsapp"></i> +91 8669546954</a></p>
                         <p><a class="text-decoration-none" href="tel:+918669546954"><i class="fas fa-phone-alt"></i>+91 8669546954</a></p>
                         <p><a class="text-decoration-none" href="mailto:sales@rigveduptown-balewadi.com"><i class="fas fa-envelope"></i> sales@rigveduptown-balewadi.com</a></p>
                     </div>
@@ -698,7 +698,7 @@
     </div>
     <div id="mobileBootom">
         <div class="row px-2">
-            <div class="col-4 card themeColor "><a class="text-decoration-none text-white btn-sm" href="https://wa.me/+918669546954/?text=Hi i would like to have more information about Rigved Uptown Balewadi"><i class="fab fa-whatsapp"></i> Whatsapp</a></div>
+            <div class="col-4 card themeColor "><a class="text-decoration-none text-white btn-sm" href="https://wa.me/+918669546954/?text=Hi i would like to have more information about Kunal Group's Codename Rise and Share Balewadi"><i class="fab fa-whatsapp"></i> Whatsapp</a></div>
             <div class="col-4 card themeColor "><a class="text-decoration-none text-white btn-sm" href="tel:+918669546954"><i class="fas fa-phone-alt"></i><br>Call Us</a></div>
             <div class="col-4 card themeColor "><a class="text-decoration-none text-white btn-sm" href="mailto:sales@rigveduptown-balewadi.com"><i class="fas fa-envelope"></i><br>Enquire</a></div>
         </div>
