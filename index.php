@@ -809,6 +809,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.2/bootbox.min.js"></script>
     <script>
         $(document).ready(function() {
+            setInterval(function() {
+                popup();
+            }, 30000);
             var myCarousel = document.querySelector('#carouselExampleDark');
             var carousel = new bootstrap.Carousel(myCarousel, {
                 interval: 2000
