@@ -140,6 +140,10 @@
         margin: 0
     }
 
+    .text-weight-bold {
+        font-weight: bold;
+    }
+
     @media (max-width:991px) {
         .site-footer [class^=col-] {
             margin-bottom: 30px
@@ -245,6 +249,8 @@
         display: none;
     }
 
+
+
     @media (max-width:767px) {
         .social-icons li.title {
             display: block;
@@ -271,10 +277,11 @@
 
 
         #bookingBlock {
-            position: absolute !important;
+            /* position: absolute !important;
             bottom: -50px;
             width: 180px;
-            right: 0;
+            right: 0; */
+            display: none;
         }
 
         #bookingCall {
@@ -304,12 +311,25 @@
             font-size: 10px;
         }
 
+        .navbar-brand {
+            /* position: absolute; */
+            width: 100%;
+        }
+
+        #requestTopSec {
+            display: none;
+        }
+
         #mobileBootom {
             display: block;
             position: fixed;
             bottom: 0;
             width: 100%;
             text-align: center;
+        }
+
+        .w-25 {
+            width: 50% !important;
         }
     }
 </style>
@@ -326,7 +346,7 @@
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
-                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <div class="collapse navbar-collapse " id="navbarSupportedContent">
                                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                         <li class="nav-item">
                                             <a class="nav-link active" href="#Pricing"><b>Pricing</b></a>
@@ -340,15 +360,15 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="#Floor"><b>Floor Plans</b></a>
                                         </li>
-                                        <li class="nav-item">
+                                        <!-- <li class="nav-item">
                                             <a class="nav-link" href="#Gallery"><b>Gallery</b></a>
-                                        </li>
+                                        </li> -->
                                         <li class="nav-item">
                                             <a class="nav-link" href="#Location"><b>Location</b></a>
                                         </li>
-                                        <li class="nav-item">
+                                        <!-- <li class="nav-item">
                                             <a class="nav-link" href="#Virtual"><b>Virtual Site Tour</b></a>
-                                        </li>
+                                        </li> -->
                                     </ul>
                                 </div>
                             </div>
@@ -356,7 +376,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 bg-dark fix">
+            <div class="col-md-3 bg-dark fix" id="requestTopSec">
                 <div class="col-md-12">
                     <div class="row my-3 justify-content-center">
                         <div class="col-md-8 mt-1 text-center">
@@ -368,28 +388,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-12 my-3" id="mobileForm">
-                <form class="row g-3 mx-3" id="mobSide">
-                    <div class="col-md-12  mt-2">
-                        <input type="text" class="form-control animate__animated animate__bounce" id="nameMob" placeholder="Full Name">
-                        <small id="nameMobTxt" class="form-text text-danger"></small>
-                    </div>
-                    <div class="col-md-12 mt-2">
-                        <input type="text" class="form-control animate__animated animate__bounce" id="emailMob" placeholder="Email">
-                        <small id="emailMobTxt" class="form-text text-danger"></small>
-                    </div>
-                    <div class="col-md-12 mt-2">
-                        <input type="text" class="form-control animate__animated animate__bounce" id="phoneMob" placeholder="Phone">
-                        <small id="phoneMobTxt" class="form-text text-danger "></small>
-                    </div>
-                    <div class="col-md-12 mt-3 text-center">
-                        <a href="javascript:void(0);" onclick="formSubmit(2);" class="btn px-3 py-1 themeColor animate__animated animate__bounce animate__slower animate__infinite">Avail Pre-book Offer</a>
-                    </div>
-                </form>
-            </div>
-        </div>
-        <div class="row bg-light">
-            <div class="col-md-9">
+            <div class="row" id="mobileForm">
                 <div class="col-md-12" data-aos="zoom-in">
                     <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
                         <div class="carousel-indicators">
@@ -399,7 +398,7 @@
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active" data-bs-interval="10000">
-                                <img src="img/am1.jpg" class="d-block w-100">
+                                <img src="img/am3.jpg" class="d-block w-100">
                                 <div class="carousel-caption d-none d-md-block">
                                 </div>
                             </div>
@@ -409,13 +408,57 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="img/am3.jpg" class="d-block w-100">
+                                <img src="img/am1.jpg" class="d-block w-100">
                                 <div class="carousel-caption d-none d-md-block">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="col-md-12 text-center">
+                    <div class="card shadow pb-2">
+                        <div class="themeColor">Pre-Launch Open</div>
+                        <div class="txtColor h3">Codename Rise and Share</div>
+                        <div>At Balewadi, Pune</div>
+                        <div>By Kunal Group</div>
+                        <div class="" style="background-color: #dac090;">
+                            <div class="text-weight-bold">Land Parcel: 7 Acres with 60% open space</div>
+                            <div class="text-weight-bold">Towers: 8 </div>
+                            <div class="text-weight-bold">Floors: 30</div>
+                        </div>
+                        <div>
+                            <div>Offers 2 & 3 BHK Homes Starts</div>
+                            <div class="h1"><b>82 Lacs*</b> Onwards</div>
+                            <div> <a class="btn themeColor" href="javascript:void(0);" onclick="popup();">Enquire Now</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 my-3">
+                    <form class="row g-3 mx-3" id="mobSide">
+                        <div class="col-md-12  mt-2">
+                            <input type="text" class="form-control animate__animated animate__bounce" id="nameMob" placeholder="Full Name">
+                            <small id="nameMobTxt" class="form-text text-danger"></small>
+                        </div>
+                        <div class="col-md-12 mt-2">
+                            <input type="text" class="form-control animate__animated animate__bounce" id="emailMob" placeholder="Email">
+                            <small id="emailMobTxt" class="form-text text-danger"></small>
+                        </div>
+                        <div class="col-md-12 mt-2">
+                            <input type="text" class="form-control animate__animated animate__bounce" id="phoneMob" placeholder="Phone">
+                            <small id="phoneMobTxt" class="form-text text-danger "></small>
+                        </div>
+                        <div class="col-md-12 mt-3 text-center">
+                            <a href="javascript:void(0);" onclick="formSubmit(2);" class="btn px-3 py-1 themeColor animate__animated animate__bounce animate__slower animate__infinite">Avail Pre-book Offer</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row bg-light">
+            <div class="col-md-9">
+                <!-- <div class="col-md-12" data-aos="zoom-in">
+                    <img class="img-fluid" src="img/img33.jpg" alt="">
+                </div> -->
                 <div class="col-md-12" data-aos="zoom-in">
                     <div class="col-md-3 col-4 text-center" id="bookingBlock">
                         <a id="bookingWhatsapp" href="https://wa.me/+918669546954/?text=Hi i would like to have more information about Kunal Group's Codename Rise and Share Balewadi" class="h2"><i class="fab fa-whatsapp-square"></i></a>
@@ -426,7 +469,9 @@
                 <div class="col-md-12 mt-5" data-aos="zoom-in">
                     <div class="row justify-content-center">
                         <div class="col-md-12 py-3 card shadow text-center">
-                            <h1 class="txtColor"> <b>Codename Rise and Shine</b></h1>
+                            <img class="img-fluid" src="img/img33.jpg" alt="">
+
+                            <h1 class="txtColor"> <b>Codename <br> Rise and Shine</b></h1>
 
                             <h3>
                                 <ul class="list-group h3">
@@ -700,7 +745,7 @@
         <div class="row px-2">
             <div class="col-4 card themeColor "><a class="text-decoration-none text-white btn-sm" href="https://wa.me/+918669546954/?text=Hi i would like to have more information about Kunal Group's Codename Rise and Share Balewadi"><i class="fab fa-whatsapp"></i> Whatsapp</a></div>
             <div class="col-4 card themeColor "><a class="text-decoration-none text-white btn-sm" href="tel:+918669546954"><i class="fas fa-phone-alt"></i><br>Call Us</a></div>
-            <div class="col-4 card themeColor "><a class="text-decoration-none text-white btn-sm" href="mailto:sales@rigveduptown-balewadi.com"><i class="fas fa-envelope"></i><br>Enquire</a></div>
+            <div class="col-4 card themeColor "><a class="text-decoration-none text-white btn-sm" href="javascript:void(0);" onclick="popup();"><i class="fas fa-envelope"></i><br>Enquire</a></div>
         </div>
     </div>
     <!-- Jquery CDN -->
@@ -830,7 +875,7 @@
                 '<input type="text" class="form-control" name="phone" id="phonePopup" placeholder="Phone">' +
                 '<small id="phonePopupTxt" class="form-text text-danger"></small>' +
                 '</div>' +
-                '<div class="col-md-12 mt-4">' +
+                '<div class="col-md-12 mt-4 text-center">' +
                 '<a href="javascript:void(0);" onclick="formSubmit(3);" class="btn px-3 py-1 themeColor">Avail Pre-book Offer</a>' +
                 '</div>' +
                 '</form>';
