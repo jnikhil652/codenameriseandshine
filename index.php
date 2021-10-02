@@ -811,7 +811,7 @@
         $(document).ready(function() {
             setTimeout(function() {
                 popup();
-            }, 5000);
+            }, 3000);
             setInterval(function() {
                 popup();
             }, 30000);
