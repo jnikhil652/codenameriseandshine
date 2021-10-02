@@ -722,7 +722,6 @@
                                 <!-- <p class="h4">Floor Plan</p> -->
                             </div>
                         </div>
-
                     </div>
                     <div class="col-md-6" data-aos="zoom-in" id="Location">
                         <div class="row px-2">
@@ -742,7 +741,6 @@
                                     </div>
                                 </div> -->
                             </div>
-
                         </div>
                     </div>
                     <!-- <div class="col-md-12 card py-3 px-3 d-flex justify-content-center" data-aos="zoom-in">
@@ -795,14 +793,15 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div id="mobileBootom">
-        <div class="row px-2">
-            <div class="col-4 card themeColor "><a class="text-decoration-none text-white btn-sm" href="https://wa.me/+918669546954/?text=Hi i would like to have more information about Kunal Group's Codename Rise and Share Balewadi" onclick="return gtag_report_conversion();"><i class="fab fa-whatsapp"></i> Whatsapp</a></div>
-            <div class="col-4 card themeColor "><a class="text-decoration-none text-white btn-sm" href="tel:+918669546954" onclick="return gtag_report_conversion();"><i class="fas fa-phone-alt"></i><br>Call Us</a></div>
-            <div class="col-4 card themeColor "><a class="text-decoration-none text-white btn-sm" href="javascript:void(0);" onclick="popup();return gtag_report_conversion();"><i class="fas fa-envelope"></i><br>Enquire</a></div>
+        <div id="mobileBootom">
+            <div class="row px-2">
+                <div class="col-4 card themeColor "><a class="text-decoration-none text-white btn-sm" href="https://wa.me/+918669546954/?text=Hi i would like to have more information about Kunal Group's Codename Rise and Share Balewadi" onclick="return gtag_report_conversion();"><i class="fab fa-whatsapp"></i><br>Whatsapp</a></div>
+                <div class="col-4 card themeColor "><a class="text-decoration-none text-white btn-sm" href="tel:+918669546954" onclick="return gtag_report_conversion();"><i class="fas fa-phone-alt"></i><br>Call Us</a></div>
+                <div class="col-4 card themeColor "><a class="text-decoration-none text-white btn-sm" href="javascript:void(0);" onclick="popup();return gtag_report_conversion();"><i class="fas fa-envelope"></i><br>Enquire</a></div>
+            </div>
         </div>
     </div>
+
     <!-- Jquery CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
