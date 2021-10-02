@@ -776,7 +776,7 @@
                     <div class="col-md-12 mt-3 text-center">
                         <p><a class="text-decoration-none" href="https://wa.me/+918669546954/?text=Hi i would like to have more information about Kunal Group's Codename Rise and Share Balewadi" onclick="return gtag_report_conversion();"><i class="fab fa-whatsapp"></i> +91 8669546954</a></p>
                         <p><a class="text-decoration-none" href="tel:+918669546954" onclick="return gtag_report_conversion();"><i class="fas fa-phone-alt"></i>+91 8669546954</a></p>
-                        <p><a class="text-decoration-none" href="mailto:sales@rigveduptown-balewadi.com" onclick="return gtag_report_conversion();"><i class="fas fa-envelope"></i> sales@rigveduptown-balewadi.com</a></p>
+                        <p><a class="text-decoration-none" href="mailto:sales@kunalgroupriseandshine.in" onclick="return gtag_report_conversion();"><i class="fas fa-envelope"></i> sales@kunalgroupriseandshine.in</a></p>
                     </div>
                 </div>
             </div>
