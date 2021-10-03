@@ -464,14 +464,14 @@
                         <div>At Near Balewai High Street, Balewadi, Pune</div>
                         <div>By Kunal Group</div>
                         <div class="" style="background-color: #dac090;">
-                            <div class="text-weight-bold">Land Parcel: 7 Acres with 60% open space</div>
-                            <div class="text-weight-bold">Towers: 8 </div>
-                            <div class="text-weight-bold">Floors: 30</div>
+                            <div class="text-weight-bold animate__animated animate__heartBeat animate__slower animate__infinite">Land Parcel: 7 Acres with 60% open space</div>
+                            <div class="text-weight-bold animate__animated animate__heartBeat animate__slower animate__infinite">Towers: 8 </div>
+                            <div class="text-weight-bold animate__animated animate__heartBeat animate__slower animate__infinite">Floors: 30</div>
                         </div>
                         <div>
                             <div>Offers 2 & 3 BHK Homes Starts</div>
                             <div class="h1"><b>82 Lacs*</b> Onwards</div>
-                            <div> <a class="btn themeColor" href="javascript:void(0);" onclick="popup();">Enquire Now</a></div>
+                            <div> <a class="btn themeColor animate__animated animate__heartBeat animate__slower animate__infinite" href="javascript:void(0);" onclick="popup();">Enquire Now</a></div>
                         </div>
                     </div>
                 </div>
@@ -809,6 +809,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.2/bootbox.min.js"></script>
     <script>
         $(document).ready(function() {
+
+
             setTimeout(function() {
                 popup();
             }, 3000);
@@ -939,9 +941,8 @@
                 '<a href="javascript:void(0);" onclick="formSubmit(3); gtag_report_conversion();" class="btn px-3 py-1 themeColor">Avail Pre-book Offer</a>' +
                 '</div>' +
                 '</form>';
-            bootbox.dialog({
+            var dialog = bootbox.dialog({
                 message: html,
-
             });
         }
     </script>
