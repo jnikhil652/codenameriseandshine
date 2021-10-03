@@ -422,7 +422,7 @@
                 <div class="col-md-12">
                     <div class="row my-3 justify-content-center">
                         <div class="col-md-8 mt-1 text-center">
-                            <a href="https://wa.me/+918669546954/?text=Hi i would like to have more information about Kunal Group's Codename Rise and Share Balewadi" target="_blank" class="callback px-2 py-1 text-white text-decoration-none"> Request Call Back </a>
+                            <a href="https://wa.me/+918669546954/?text=Hi i would like to have more information about Kunal Group's Codename Rise and Shine Balewadi" target="_blank" class="callback px-2 py-1 text-white text-decoration-none"> Request Call Back </a>
                         </div>
                         <div class="col-md-8 mt-3 text-center">
                             <a class="visit px-2 py-1 text-white text-decoration-none" href="javascript:void(0);" onclick="popup(); gtag_report_conversion();">Schedule Site Visit</a>
@@ -461,7 +461,7 @@
                     <div class="card shadow pb-2">
                         <div class="themeColor">Pre-Launch Open</div>
                         <div class="txtColor h3">Codename Rise and Shine</div>
-                        <div>At Balewadi, Pune</div>
+                        <div>At Near Balewai High Street, Balewadi, Pune</div>
                         <div>By Kunal Group</div>
                         <div class="" style="background-color: #dac090;">
                             <div class="text-weight-bold">Land Parcel: 7 Acres with 60% open space</div>
@@ -536,7 +536,7 @@
                             <h5>
                                 <p class="h6">This is where all the action is This is where you can feel the buzz of modern Puna Join in the hustle & bustle and make the most of what the city has to offer. Be in the midst of all the action. This lifestyle is right up your street!</p>
                             </h5>
-                            <a href="https://wa.me/+918669546954/?text=Hi i would like to have more information about Kunal Group's Codename Rise and Share Balewadi" onclick=" gtag_report_conversion();" class="btn themeColor mt-3">Get in Touch</a>
+                            <a href="https://wa.me/+918669546954/?text=Hi i would like to have more information about Kunal Group's Codename Rise and Shine Balewadi" onclick=" gtag_report_conversion();" class="btn themeColor mt-3">Get in Touch</a>
                         </div>
                     </div>
                 </div>
@@ -786,7 +786,7 @@
                         <img class="img-fluid" src="img/sideImg.png" alt="">
                     </div>
                     <div class="col-md-12 mt-3 text-center">
-                        <p><a class="text-decoration-none" href="https://wa.me/+918669546954/?text=Hi i would like to have more information about Kunal Group's Codename Rise and Share Balewadi" onclick=" gtag_report_conversion();"><i class="fab fa-whatsapp"></i> +91 8669546954</a></p>
+                        <p><a class="text-decoration-none" href="https://wa.me/+918669546954/?text=Hi i would like to have more information about Kunal Group's Codename Rise and Shine Balewadi" onclick=" gtag_report_conversion();"><i class="fab fa-whatsapp"></i> +91 8669546954</a></p>
                         <p><a class="text-decoration-none" href="tel:+918669546954" onclick=" gtag_report_conversion();"><i class="fas fa-phone-alt"></i>+91 8669546954</a></p>
                         <p><a class="text-decoration-none" href="mailto:sales@kunalgroupriseandshine.in" onclick=" gtag_report_conversion();"><i class="fas fa-envelope"></i> sales@kunalgroupriseandshine.in</a></p>
                     </div>
@@ -795,7 +795,7 @@
         </div>
         <div id="mobileBootom">
             <div class="row px-2">
-                <div class="col-4 card themeColor "><a class="text-decoration-none text-white btn-sm" onclick="gtag_report_conversion();" href="https://wa.me/+918669546954/?text=Hi i would like to have more information about Kunal Group's Codename Rise and Share Balewadi"><i class="fab fa-whatsapp"></i><br>Whatsapp</a></div>
+                <div class="col-4 card themeColor "><a class="text-decoration-none text-white btn-sm" onclick="gtag_report_conversion();" href="https://wa.me/+918669546954/?text=Hi i would like to have more information about Kunal Group's Codename Rise and Shine Balewadi"><i class="fab fa-whatsapp"></i><br>Whatsapp</a></div>
                 <div class="col-4 card themeColor "><a class="text-decoration-none text-white btn-sm" href="tel:+918669546954" onclick="gtag_report_conversion();"><i class="fas fa-phone-alt"></i><br>Call Us</a></div>
                 <div class="col-4 card themeColor "><a class="text-decoration-none text-white btn-sm" href="javascript:void(0);" onclick="popup(); gtag_report_conversion();"><i class="fas fa-envelope"></i><br>Enquire</a></div>
             </div>
