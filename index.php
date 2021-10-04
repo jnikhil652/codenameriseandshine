@@ -19,6 +19,21 @@
     <title>Codename Rise and Shine</title>
 </head>
 <style>
+    #deskBanner {
+        position: absolute;
+        right: 1%;
+        top: 3%;
+    }
+
+    #navbarSupportedContent li:hover {
+        text-decoration: underline !important;
+        font-size: 25px;
+    }
+
+    /* #navbarSupportedContent {} */
+
+    /* #navbarSupportedContent ul {} */
+
     #imgMobile {
         display: none;
     }
@@ -267,6 +282,10 @@
             font-weight: 600
         }
 
+        #deskBanner {
+            display: none;
+        }
+
         .locationExpress {
             display: none;
         }
@@ -383,29 +402,29 @@
                 <div class="row">
                     <div class="col-md-12">
                         <nav class="navbar navbar-expand-lg navbar-light bg-white">
-                            <div class="container-fluid">
+                            <div class="container-fluid ">
                                 <a class="navbar-brand w-25" href="#"><img class="img-fluid" src="img/logo.jpg" alt=""></a>
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
-                                <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                        <li class="nav-item">
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                                        <li class="nav-item px-2">
                                             <a class="nav-link active" href="#Pricing"><b>Pricing</b></a>
                                         </li>
-                                        <li class="nav-item">
+                                        <li class="nav-item px-2">
                                             <a class="nav-link" href="#Amenities"><b>Amenities</b></a>
                                         </li>
-                                        <li class="nav-item">
+                                        <li class="nav-item px-2">
                                             <a class="nav-link" href="#Specifications"><b>Specifications</b></a>
                                         </li>
-                                        <li class="nav-item">
+                                        <li class="nav-item px-2">
                                             <a class="nav-link" href="#Floor"><b>Floor Plans</b></a>
                                         </li>
-                                        <!-- <li class="nav-item">
+                                        <!-- <li class="nav-item px-2">
                                             <a class="nav-link" href="#Gallery"><b>Gallery</b></a>
                                         </li> -->
-                                        <li class="nav-item">
+                                        <li class="nav-item px-2">
                                             <a class="nav-link" href="#Location"><b>Location</b></a>
                                         </li>
                                         <!-- <li class="nav-item">
@@ -500,6 +519,7 @@
             <div class="col-md-9">
                 <div class="col-md-12 mt-5" data-aos="zoom-in">
                     <div class="row justify-content-center">
+
                         <div class="col-md-12 py-3 card shadow text-center">
                             <img class="img-fluid" src="img/img33.jpg" alt="" id="imgMobile">
                             <div id="carouselDesk" class="carousel carousel-dark slide" data-bs-ride="carousel">
@@ -538,6 +558,24 @@
                             </h5>
                             <a href="https://wa.me/+918669546954/?text=Hi i would like to have more information about Kunal Group's Codename Rise and Shine Balewadi" onclick=" gtag_report_conversion();" class="btn themeColor mt-3">Get in Touch</a>
                         </div>
+                        <div class="col-md-5 text-center" id="deskBanner">
+                            <div class="card shadow pb-2">
+                                <div class="themeColor">Pre-Launch Open</div>
+                                <div class="txtColor h3">Codename Rise and Shine</div>
+                                <div>At Near Balewai High Street, Balewadi, Pune</div>
+                                <div>By Kunal Group</div>
+                                <div class="" style="background-color: #dac090;">
+                                    <div class="text-weight-bold animate__animated animate__heartBeat animate__slower animate__infinite">Land Parcel: 7 Acres with 60% open space</div>
+                                    <div class="text-weight-bold animate__animated animate__heartBeat animate__slower animate__infinite">Towers: 8 </div>
+                                    <div class="text-weight-bold animate__animated animate__heartBeat animate__slower animate__infinite">Floors: 30</div>
+                                </div>
+                                <div>
+                                    <div>Offers 2 & 3 BHK Homes Starts</div>
+                                    <div class="h1"><b>82 Lacs*</b> Onwards</div>
+                                    <div> <a class="btn themeColor animate__animated animate__heartBeat animate__slower animate__infinite" href="javascript:void(0);" onclick="popup();">Enquire Now</a></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-12 mt-5" data-aos="zoom-in" id="Pricing">
@@ -573,7 +611,7 @@
                             <div class="card shadow">
                                 <div class="card-body">
                                     <p>&#149; Complete Costing Details &#149;</p>
-                                    <p><img class="img-fluid" src="img/costing-detail.webp" alt=""></p>
+                                    <p><img class="img-fluid" src="img/costing-detail.webp" alt="" style="height: 155px;"></p>
                                     <p><a class="text-decoration-none" href="tel:+918669546954">Call at +91 8669546954</a></p>
                                     <p>Or</p>
                                     <p><a href="javascript:void(0);" class="btn themeColor" onclick="popup(); gtag_report_conversion();">Enquire Now</a></p>
@@ -723,14 +761,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6" data-aos="zoom-in" id="Location">
+                    <div class="col-md-6 mb-5" data-aos="zoom-in" id="Location">
                         <div class="row px-2">
                             <div class="col-md-12 text-center">
                                 <p class="h1 txtColor"><b>Location</b></p>
                             </div>
                             <div class="col-md-12 " data-aos="zoom-in">
                                 <img class="img-fluid shadow" src="img/location.jpg" alt="">
-                                <!-- <div class="col-md-5" id="locationExpress" style="position: absolute;bottom: 80px;right: 100px;">
+                                <div class="col-md-12" id="locationExpress" style="position: absolute;bottom: -20%;right: 0;">
                                     <div class="card text-white">
                                         <div class="card-header bg-dark">
                                             Dual Access Road : 30 mtr. and 24 mtr.
@@ -739,7 +777,7 @@
                                             A Location so well Connected everything is just around the corner
                                         </div>
                                     </div>
-                                </div> -->
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -809,8 +847,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.2/bootbox.min.js"></script>
     <script>
         $(document).ready(function() {
+            if ($(window).width() < 768) {
 
-
+            }
             setTimeout(function() {
                 popup();
             }, 3000);
