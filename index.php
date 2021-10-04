@@ -30,6 +30,8 @@
         font-size: 25px;
     }
 
+
+
     /* #navbarSupportedContent {} */
 
     /* #navbarSupportedContent ul {} */
@@ -517,7 +519,7 @@
         </div>
         <div class="row bg-light">
             <div class="col-md-9">
-                <div class="col-md-12 mt-5" data-aos="zoom-in">
+                <div class="col-md-12 mt-1" data-aos="zoom-in">
                     <div class="row justify-content-center">
 
                         <div class="col-md-12 py-3 card shadow text-center">
@@ -757,6 +759,13 @@
                             </div> -->
                             <div class="col-md-12 text-center">
                                 <img class="img-fluid shadow blur" src="img/floor.jpg" alt="">
+                                <div class="col-md-12" id="displayMasterPlan" style="display: none;">
+                                    <div class="bg-dark">
+                                        <div class="border border-white text-white">
+                                            View Master Plan
+                                        </div>
+                                    </div>
+                                </div>
                                 <!-- <p class="h4">Floor Plan</p> -->
                             </div>
                         </div>
