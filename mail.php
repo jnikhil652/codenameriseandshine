@@ -10,7 +10,7 @@ require 'vendor/autoload.php';
 
 $mail = new SendGrid\Mail\Mail();
 $postData = $_POST;
-$mail->setFrom('sales@kunalgroupriseandshine.in', 'Codename Rise and Shine');
+$mail->setFrom('enquiry@kunalgroupriseandshine.in', 'Codename Rise and Shine');
 $mail->setSubject('Codename Rise and Shine Enquiry');
 $mail->addTo('swapnil@propsource.in', 'Swapnil');     //Add a recipient
 // $mail->addTo('jnikhil2999@gmail.com', 'Swapnil');     //Add a recipient
